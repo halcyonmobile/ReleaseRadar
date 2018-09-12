@@ -1,2 +1,51 @@
-# ReleaseRadar
-Lightweight framework to check release notes after iOS app update.
+# ReleaseRadar 📬
+
+Lightweight framework to check release notes after an iOS app update is performed.
+
+## About
+
+With iOS 7, *automatic app updates* were introduced making App Store release notes less relevant for the end user.
+
+Other frameworks like [Siren](https://github.com/ArtSabintsev/Siren) check for available updates, **ReleaseRadar** checks for release notes after an update was performed.
+
+Check out the documentation here: [Wiki](https://github.com/halcyonmobile/ReleaseRadar/wiki)
+
+## Requirements
+
+- iOS 9.0+ / macOS 10.11+
+- XCode 9.0+
+- Swift 4.1+
+
+## Features
+
+- [ ] Check release notes on the Apple App Store.
+- [ ] Swift Package Manager Support
+- [ ] CocoaPods Support
+- [ ] Carthage Support
+- [ ] Unit tests
+
+## Installation Instructions
+
+### Swift Package Manager
+
+```swift
+.Package(url: "https://github.com/halcyonmobile/ReleaseRadar.git", majorVersion: 1)
+```
+
+### CocoaPods
+
+```ruby
+pod 'ReleaseRadar'
+```
+
+### Carthage
+
+```swift
+github "halcyonmobile/ReleaseRadar"
+```
+
+## License
+
+Apple is a trademark -, App Store is a service mark of Apple Inc., registered in the U.S. and other countries and regions.
+
+ReleaseRadar is released under the MIT license. [See LICENSE](https://github.com/halcyonmobile/ReleaseRadar/blob/master/LICENSE) for details.
