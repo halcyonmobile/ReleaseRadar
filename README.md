@@ -21,7 +21,7 @@ Check out the documentation here: [Wiki](https://github.com/halcyonmobile/Releas
 
 ## Features
 
-- [ ] Check release notes on the Apple App Store.
+- [x] Check release notes on the Apple App Store
 - [x] Swift Package Manager Support
 - [ ] CocoaPods Support
 - [ ] Carthage Support
