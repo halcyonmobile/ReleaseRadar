@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"ReleaseRadar::ReleaseRadarPackageTests::ProductTarget" /* ReleaseRadarPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "ReleaseRadarPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = ReleaseRadarPackageTests;
+			productName = ReleaseRadarPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F950AEDD214AFE21000679D4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEDC214AFE21000679D4 /* Config.swift */; };
+		F950AEDF214AFEFC000679D4 /* ITunesChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEDE214AFEFC000679D4 /* ITunesChecker.swift */; };
+		F950AEF0214B01FF000679D4 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEEF214B01FF000679D4 /* SearchResult.swift */; };
+		F950AEF2214B02CE000679D4 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEF1214B02CE000679D4 /* AppInfo.swift */; };
+		F9550FA6214FE2BC00B7D4B6 /* CheckingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FA5214FE2BC00B7D4B6 /* CheckingResult.swift */; };
+		F9550FA9214FE4AB00B7D4B6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FA8214FE4AB00B7D4B6 /* Result.swift */; };
+		F9550FB2214FE6DB00B7D4B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FB1214FE6DB00B7D4B6 /* main.swift */; };
+		F9550FB6214FE6F100B7D4B6 /* ReleaseRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ReleaseRadar.swift */; };
+		F9550FB7214FE6F500B7D4B6 /* CheckingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FA5214FE2BC00B7D4B6 /* CheckingResult.swift */; };
+		F9550FB8214FE6FD00B7D4B6 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEF1214B02CE000679D4 /* AppInfo.swift */; };
+		F9550FB9214FE71300B7D4B6 /* ITunesChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEDE214AFEFC000679D4 /* ITunesChecker.swift */; };
+		F9550FBA214FE71F00B7D4B6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEDC214AFE21000679D4 /* Config.swift */; };
+		F9550FBB214FE72600B7D4B6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FA8214FE4AB00B7D4B6 /* Result.swift */; };
+		F9550FBC214FE73300B7D4B6 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEEF214B01FF000679D4 /* SearchResult.swift */; };
+		OBJ_22 /* ReleaseRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ReleaseRadar.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_40 /* ReleaseRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ReleaseRadarTests.swift */; };
+		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_43 /* ReleaseRadar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReleaseRadar::ReleaseRadar::Product" /* ReleaseRadar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F950AEDA214AFDA6000679D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ReleaseRadar::ReleaseRadar";
+			remoteInfo = ReleaseRadar;
+		};
+		F950AEDB214AFDA9000679D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ReleaseRadar::ReleaseRadarTests";
+			remoteInfo = ReleaseRadarTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9550FAD214FE6DB00B7D4B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F950AEDC214AFE21000679D4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F950AEDE214AFEFC000679D4 /* ITunesChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesChecker.swift; sourceTree = "<group>"; };
+		F950AEEF214B01FF000679D4 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		F950AEF1214B02CE000679D4 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		F9550FA5214FE2BC00B7D4B6 /* CheckingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingResult.swift; sourceTree = "<group>"; };
+		F9550FA8214FE4AB00B7D4B6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F9550FAF214FE6DB00B7D4B6 /* ReleaseRadar Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ReleaseRadar Example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9550FB1214FE6DB00B7D4B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ReleaseRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseRadarTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* ReleaseRadar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseRadar.swift; sourceTree = "<group>"; };
+		"ReleaseRadar::ReleaseRadar::Product" /* ReleaseRadar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReleaseRadar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ReleaseRadar::ReleaseRadarTests::Product" /* ReleaseRadarTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReleaseRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9550FAC214FE6DB00B7D4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* ReleaseRadar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F950AEED214B01E5000679D4 /* iTunes Search */ = {
+			isa = PBXGroup;
+			children = (
+				F950AEDE214AFEFC000679D4 /* ITunesChecker.swift */,
+				F950AEEF214B01FF000679D4 /* SearchResult.swift */,
+				F950AEF1214B02CE000679D4 /* AppInfo.swift */,
+			);
+			path = "iTunes Search";
+			sourceTree = "<group>";
+		};
+		F950AEEE214B01F2000679D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9550FA5214FE2BC00B7D4B6 /* CheckingResult.swift */,
+				F9550FA8214FE4AB00B7D4B6 /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9550FB0214FE6DB00B7D4B6 /* ReleaseRadar Example */ = {
+			isa = PBXGroup;
+			children = (
+				F9550FB1214FE6DB00B7D4B6 /* main.swift */,
+			);
+			path = "ReleaseRadar Example";
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* ReleaseRadarTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* ReleaseRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* ReleaseRadarTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = ReleaseRadarTests;
+			path = Tests/ReleaseRadarTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"ReleaseRadar::ReleaseRadar::Product" /* ReleaseRadar.framework */,
+				"ReleaseRadar::ReleaseRadarTests::Product" /* ReleaseRadarTests.xctest */,
+				F9550FAF214FE6DB00B7D4B6 /* ReleaseRadar Example */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				F9550FB0214FE6DB00B7D4B6 /* ReleaseRadar Example */,
+				OBJ_14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* ReleaseRadar */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* ReleaseRadar */ = {
+			isa = PBXGroup;
+			children = (
+				F950AEEE214B01F2000679D4 /* Models */,
+				F950AEED214B01E5000679D4 /* iTunes Search */,
+				F950AEDC214AFE21000679D4 /* Config.swift */,
+				OBJ_9 /* ReleaseRadar.swift */,
+			);
+			name = ReleaseRadar;
+			path = Sources/ReleaseRadar;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9550FAE214FE6DB00B7D4B6 /* ReleaseRadar Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9550FB3214FE6DB00B7D4B6 /* Build configuration list for PBXNativeTarget "ReleaseRadar Example" */;
+			buildPhases = (
+				F9550FAB214FE6DB00B7D4B6 /* Sources */,
+				F9550FAC214FE6DB00B7D4B6 /* Frameworks */,
+				F9550FAD214FE6DB00B7D4B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReleaseRadar Example";
+			productName = "ReleaseRadar Example";
+			productReference = F9550FAF214FE6DB00B7D4B6 /* ReleaseRadar Example */;
+			productType = "com.apple.product-type.tool";
+		};
+		"ReleaseRadar::ReleaseRadar" /* ReleaseRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "ReleaseRadar" */;
+			buildPhases = (
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReleaseRadar;
+			productName = ReleaseRadar;
+			productReference = "ReleaseRadar::ReleaseRadar::Product" /* ReleaseRadar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ReleaseRadar::ReleaseRadarTests" /* ReleaseRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "ReleaseRadarTests" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = ReleaseRadarTests;
+			productName = ReleaseRadarTests;
+			productReference = "ReleaseRadar::ReleaseRadarTests::Product" /* ReleaseRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"ReleaseRadar::SwiftPMPackageDescription" /* ReleaseRadarPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "ReleaseRadarPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReleaseRadarPackageDescription;
+			productName = ReleaseRadarPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					F9550FAE214FE6DB00B7D4B6 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = Y6P2NYW2G8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ReleaseRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"ReleaseRadar::ReleaseRadar" /* ReleaseRadar */,
+				"ReleaseRadar::SwiftPMPackageDescription" /* ReleaseRadarPackageDescription */,
+				"ReleaseRadar::ReleaseRadarPackageTests::ProductTarget" /* ReleaseRadarPackageTests */,
+				"ReleaseRadar::ReleaseRadarTests" /* ReleaseRadarTests */,
+				F9550FAE214FE6DB00B7D4B6 /* ReleaseRadar Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9550FAB214FE6DB00B7D4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9550FB7214FE6F500B7D4B6 /* CheckingResult.swift in Sources */,
+				F9550FB8214FE6FD00B7D4B6 /* AppInfo.swift in Sources */,
+				F9550FBC214FE73300B7D4B6 /* SearchResult.swift in Sources */,
+				F9550FB9214FE71300B7D4B6 /* ITunesChecker.swift in Sources */,
+				F9550FB6214FE6F100B7D4B6 /* ReleaseRadar.swift in Sources */,
+				F9550FBB214FE72600B7D4B6 /* Result.swift in Sources */,
+				F9550FB2214FE6DB00B7D4B6 /* main.swift in Sources */,
+				F9550FBA214FE71F00B7D4B6 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F9550FA6214FE2BC00B7D4B6 /* CheckingResult.swift in Sources */,
+				F950AEDF214AFEFC000679D4 /* ITunesChecker.swift in Sources */,
+				F950AEF2214B02CE000679D4 /* AppInfo.swift in Sources */,
+				OBJ_22 /* ReleaseRadar.swift in Sources */,
+				F9550FA9214FE4AB00B7D4B6 /* Result.swift in Sources */,
+				F950AEF0214B01FF000679D4 /* SearchResult.swift in Sources */,
+				F950AEDD214AFE21000679D4 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_40 /* ReleaseRadarTests.swift in Sources */,
+				OBJ_41 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ReleaseRadar::ReleaseRadarTests" /* ReleaseRadarTests */;
+			targetProxy = F950AEDB214AFDA9000679D4 /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ReleaseRadar::ReleaseRadar" /* ReleaseRadar */;
+			targetProxy = F950AEDA214AFDA6000679D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9550FB4214FE6DB00B7D4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6P2NYW2G8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F9550FB5214FE6DB00B7D4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Y6P2NYW2G8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReleaseRadar.xcodeproj/ReleaseRadar_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ReleaseRadar;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ReleaseRadar;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReleaseRadar.xcodeproj/ReleaseRadar_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ReleaseRadar;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ReleaseRadar;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReleaseRadar.xcodeproj/ReleaseRadarTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ReleaseRadarTests;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReleaseRadar.xcodeproj/ReleaseRadarTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ReleaseRadarTests;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9550FB3214FE6DB00B7D4B6 /* Build configuration list for PBXNativeTarget "ReleaseRadar Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9550FB4214FE6DB00B7D4B6 /* Debug */,
+				F9550FB5214FE6DB00B7D4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_18 /* Build configuration list for PBXNativeTarget "ReleaseRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "ReleaseRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "ReleaseRadarPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "ReleaseRadarPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "ReleaseRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
