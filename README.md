@@ -1,5 +1,6 @@
 # ReleaseRadar 📬
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/136d1e8dac924d2aa3152ebbdc65faf4)](https://app.codacy.com/app/magyarosibotond/ReleaseRadar?utm_source=github.com&utm_medium=referral&utm_content=halcyonmobile/ReleaseRadar&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://travis-ci.org/halcyonmobile/ReleaseRadar.svg?branch=master)](https://travis-ci.org/halcyonmobile/ReleaseRadar)
 
 Lightweight framework to check release notes after an iOS app update is performed.
