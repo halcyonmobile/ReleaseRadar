@@ -1,5 +1,7 @@
 # ReleaseRadar 📬
 
+[![Build Status](https://travis-ci.org/halcyonmobile/ReleaseRadar.svg?branch=master)](https://travis-ci.org/halcyonmobile/ReleaseRadar)
+
 Lightweight framework to check release notes after an iOS app update is performed.
 
 ## About
