@@ -35,6 +35,7 @@
 		F9550FBA214FE71F00B7D4B6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEDC214AFE21000679D4 /* Config.swift */; };
 		F9550FBB214FE72600B7D4B6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FA8214FE4AB00B7D4B6 /* Result.swift */; };
 		F9550FBC214FE73300B7D4B6 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950AEEF214B01FF000679D4 /* SearchResult.swift */; };
+		F9550FC02150ED7500B7D4B6 /* Bundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9550FBF2150ED7500B7D4B6 /* Bundle+Version.swift */; };
 		OBJ_22 /* ReleaseRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ReleaseRadar.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* ReleaseRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ReleaseRadarTests.swift */; };
@@ -80,6 +81,7 @@
 		F9550FA8214FE4AB00B7D4B6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		F9550FAF214FE6DB00B7D4B6 /* ReleaseRadar Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ReleaseRadar Example"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9550FB1214FE6DB00B7D4B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F9550FBF2150ED7500B7D4B6 /* Bundle+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Version.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* ReleaseRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseRadarTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			path = "ReleaseRadar Example";
 			sourceTree = "<group>";
 		};
+		F9550FBE2150ED1A00B7D4B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9550FBF2150ED7500B7D4B6 /* Bundle+Version.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +203,7 @@
 			children = (
 				F950AEEE214B01F2000679D4 /* Models */,
 				F950AEED214B01E5000679D4 /* iTunes Search */,
+				F9550FBE2150ED1A00B7D4B6 /* Utilities */,
 				F950AEDC214AFE21000679D4 /* Config.swift */,
 				OBJ_9 /* ReleaseRadar.swift */,
 			);
@@ -326,6 +337,7 @@
 			files = (
 				F9550FA6214FE2BC00B7D4B6 /* CheckingResult.swift in Sources */,
 				F950AEDF214AFEFC000679D4 /* ITunesChecker.swift in Sources */,
+				F9550FC02150ED7500B7D4B6 /* Bundle+Version.swift in Sources */,
 				F950AEF2214B02CE000679D4 /* AppInfo.swift in Sources */,
 				OBJ_22 /* ReleaseRadar.swift in Sources */,
 				F9550FA9214FE4AB00B7D4B6 /* Result.swift in Sources */,
