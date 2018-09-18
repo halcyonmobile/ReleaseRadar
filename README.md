@@ -5,6 +5,16 @@
 
 Lightweight framework to check release notes after an iOS app update is performed.
 
+- [About](#about)
+- [Requirements](#requirements)
+- [Features](#features)
+- [Installation Instructions](#installation-instructions)
+    - [Swift Package Manager](#swift-package-manager)
+    - [CocoaPods](#cocoapods)
+    - [Carthage](#carthage)
+- [Usage](#usage)
+- [License](#license)
+
 ## About
 
 With iOS 7, *automatic app updates* were introduced making App Store release notes less relevant for the end user.
@@ -45,6 +55,23 @@ pod 'ReleaseRadar'
 
 ```swift
 github "halcyonmobile/ReleaseRadar"
+```
+
+## Usage
+
+ReleaseRadar is easy to use through the exposed ReleaseRadar class.
+
+```swift
+let releaseRadar = ReleaseRadar(iTunesId: "12345678")
+releaseRadar.verify { result in
+    switch result {
+    case .updated(let appInfo):
+        // your app has been updated
+        // access update information through *appInfo*
+    case .notUpdated:
+        // no update was performed
+    }
+}
 ```
 
 ## License
