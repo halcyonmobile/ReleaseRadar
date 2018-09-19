@@ -33,7 +33,7 @@ Check out the documentation here: [Wiki](https://github.com/halcyonmobile/Releas
 
 - [x] Check release notes on the Apple App Store
 - [x] Swift Package Manager Support
-- [ ] CocoaPods Support
+- [x] CocoaPods Support
 - [ ] Carthage Support
 - [ ] Unit tests
 
