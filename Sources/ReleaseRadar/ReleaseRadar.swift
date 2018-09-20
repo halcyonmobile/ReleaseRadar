@@ -26,13 +26,13 @@ public class ReleaseRadar {
 
     // MARK: - Methods
 
-    public func verify(completion: @escaping (_ result: CheckingResult) -> Void) {
+    public func verify(checkPolicy: CheckPolicy = .patch, completion: @escaping (_ result: CheckingResult) -> Void) {
         guard let lastVersionString = lastVersionString else {
             self.lastVersionString = bundle.version
             completion(.notUpdated)
             return
         }
-        guard bundle.version > lastVersionString else {
+        guard checkPolicy.isVersionString(bundle.version, largerThan: lastVersionString) else {
             completion(.notUpdated)
             return
         }
