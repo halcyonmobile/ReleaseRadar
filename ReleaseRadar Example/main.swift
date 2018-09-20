@@ -8,7 +8,7 @@
 import Foundation
 
 let releaseRadar = ReleaseRadar(iTunesId: "284910350")
-releaseRadar.verify { result in
+releaseRadar.verify(checkPolicy: .major) { result in
     print(result)
 }
 
