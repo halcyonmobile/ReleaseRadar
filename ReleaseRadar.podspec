@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReleaseRadar"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.homepage     = "https://github.com/halcyonmobile/ReleaseRadar"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Botond Magyarosi"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   Other frameworks like Siren check for available updates, ReleaseRadar checks for release notes after an update was performed.
                    DESC
 
-  s.swift_version = "4.1"
+  s.swift_version = "4.2"
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/halcyonmobile/ReleaseRadar.git", :tag => "v#{s.version}" }
   s.source_files  = "Sources/**/*.swift"
