@@ -34,7 +34,7 @@ Check out the documentation here: [Wiki](https://github.com/halcyonmobile/Releas
 - [x] Check release notes on the Apple App Store
 - [x] Swift Package Manager Support
 - [x] CocoaPods Support
-- [ ] Carthage Support
+- [x] Carthage Support
 - [ ] Unit tests
 
 ## Installation Instructions
@@ -42,7 +42,7 @@ Check out the documentation here: [Wiki](https://github.com/halcyonmobile/Releas
 ### Swift Package Manager
 
 ```swift
-.Package(url: "https://github.com/halcyonmobile/ReleaseRadar.git", majorVersion: 1)
+.Package(url: "https://github.com/halcyonmobile/ReleaseRadar.git", majorVersion: 0, minorVersion: 2)
 ```
 
 ### CocoaPods
@@ -63,7 +63,7 @@ ReleaseRadar is easy to use through the exposed ReleaseRadar class.
 
 ```swift
 let releaseRadar = ReleaseRadar(iTunesId: "12345678")
-releaseRadar.verify { result in
+releaseRadar.verify(checkPolicy: .minor) { result in
     switch result {
     case .updated(let appInfo):
         // your app has been updated
