@@ -30,74 +30,66 @@
          isa = "PBXGroup";
          children = (
             "OBJ_11",
-            "OBJ_12",
-            "OBJ_15",
-            "OBJ_16",
-            "OBJ_19"
-         );
-         name = "ReleaseRadar";
-         path = "Sources/ReleaseRadar";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "Config.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_13",
-            "OBJ_14"
+            "OBJ_12"
          );
          name = "Models";
          path = "Models";
          sourceTree = "<group>";
       };
-      "OBJ_13" = {
+      "OBJ_11" = {
          isa = "PBXFileReference";
          path = "CheckingResult.swift";
          sourceTree = "<group>";
       };
-      "OBJ_14" = {
+      "OBJ_12" = {
          isa = "PBXFileReference";
          path = "Result.swift";
          sourceTree = "<group>";
       };
-      "OBJ_15" = {
+      "OBJ_13" = {
          isa = "PBXFileReference";
          path = "ReleaseRadar.swift";
          sourceTree = "<group>";
       };
-      "OBJ_16" = {
+      "OBJ_14" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_17",
-            "OBJ_18"
+            "OBJ_15",
+            "OBJ_16"
          );
          name = "Utilities";
          path = "Utilities";
          sourceTree = "<group>";
       };
-      "OBJ_17" = {
+      "OBJ_15" = {
          isa = "PBXFileReference";
          path = "Bundle+Version.swift";
          sourceTree = "<group>";
       };
-      "OBJ_18" = {
+      "OBJ_16" = {
          isa = "PBXFileReference";
          path = "CheckPolicy.swift";
          sourceTree = "<group>";
       };
-      "OBJ_19" = {
+      "OBJ_17" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_20",
-            "OBJ_21",
-            "OBJ_22"
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20"
          );
          name = "iTunes Search";
          path = "iTunes Search";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "AppInfo.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "ITunesChecker.swift";
          sourceTree = "<group>";
       };
       "OBJ_2" = {
@@ -111,17 +103,21 @@
       };
       "OBJ_20" = {
          isa = "PBXFileReference";
-         path = "AppInfo.swift";
+         path = "SearchResult.swift";
          sourceTree = "<group>";
       };
       "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "ITunesChecker.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_22"
+         );
+         name = "Example";
+         path = "Sources/Example";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_22" = {
          isa = "PBXFileReference";
-         path = "SearchResult.swift";
+         path = "main.swift";
          sourceTree = "<group>";
       };
       "OBJ_23" = {
@@ -156,9 +152,9 @@
       "OBJ_27" = {
          isa = "PBXGroup";
          children = (
-            "ReleaseRadar::ReleaseRadar::Product",
             "ReleaseRadar::ReleaseRadarTests::Product",
-            "ReleaseRadar::Example::Product"
+            "ReleaseRadar::Example::Product",
+            "ReleaseRadar::ReleaseRadar::Product"
          );
          name = "Products";
          path = "";
@@ -290,7 +286,7 @@
       };
       "OBJ_36" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         fileRef = "OBJ_22";
       };
       "OBJ_37" = {
          isa = "PBXFrameworksBuildPhase";
@@ -437,23 +433,23 @@
       };
       "OBJ_45" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
+         fileRef = "OBJ_9";
       };
       "OBJ_46" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_11";
       };
       "OBJ_47" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
+         fileRef = "OBJ_12";
       };
       "OBJ_48" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         fileRef = "OBJ_13";
       };
       "OBJ_49" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
+         fileRef = "OBJ_15";
       };
       "OBJ_5" = {
          isa = "PBXGroup";
@@ -468,19 +464,19 @@
       };
       "OBJ_50" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_18";
+         fileRef = "OBJ_16";
       };
       "OBJ_51" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
+         fileRef = "OBJ_18";
       };
       "OBJ_52" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
+         fileRef = "OBJ_19";
       };
       "OBJ_53" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
+         fileRef = "OBJ_20";
       };
       "OBJ_54" = {
          isa = "PBXFrameworksBuildPhase";
@@ -656,7 +652,7 @@
          isa = "PBXGroup";
          children = (
             "OBJ_8",
-            "OBJ_10"
+            "OBJ_21"
          );
          name = "Sources";
          path = "";
@@ -694,15 +690,19 @@
       "OBJ_8" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_9"
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_13",
+            "OBJ_14",
+            "OBJ_17"
          );
-         name = "Example";
-         path = "Sources/Example";
+         name = "ReleaseRadar";
+         path = "Sources/ReleaseRadar";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "Config.swift";
          sourceTree = "<group>";
       };
       "ReleaseRadar::Example" = {
