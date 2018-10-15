@@ -28,9 +28,7 @@ public class ReleaseRadar {
 
     public func verify(checkPolicy: CheckPolicy = .patch, completion: @escaping (_ result: CheckingResult) -> Void) {
         guard let lastVersionString = lastVersionString else {
-            checkITunes { result in
-                completion(result)
-            }
+            checkITunes(completion: completion)
             return
         }
 
@@ -39,9 +37,7 @@ public class ReleaseRadar {
             return
         }
 
-        checkITunes { result in
-            completion(result)
-        }
+        checkITunes(completion: completion)
     }
 
     private func checkITunes(completion: @escaping (_ result: CheckingResult) -> Void) {
