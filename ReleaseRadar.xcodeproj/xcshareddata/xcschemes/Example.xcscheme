@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ReleaseRadar::ReleaseRadar"
-               BuildableName = "ReleaseRadar.framework"
-               BlueprintName = "ReleaseRadar"
-               ReferencedContainer = "container:ReleaseRadar.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "ReleaseRadar::Example"
                BuildableName = "Example"
                BlueprintName = "Example"
@@ -66,15 +52,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ReleaseRadar::ReleaseRadar"
-            BuildableName = "ReleaseRadar.framework"
-            BlueprintName = "ReleaseRadar"
+            BlueprintIdentifier = "ReleaseRadar::Example"
+            BuildableName = "Example"
+            BlueprintName = "Example"
             ReferencedContainer = "container:ReleaseRadar.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

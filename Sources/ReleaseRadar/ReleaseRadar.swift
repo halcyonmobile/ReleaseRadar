@@ -28,14 +28,23 @@ public class ReleaseRadar {
 
     public func verify(checkPolicy: CheckPolicy = .patch, completion: @escaping (_ result: CheckingResult) -> Void) {
         guard let lastVersionString = lastVersionString else {
-            self.lastVersionString = bundle.version
-            completion(.notUpdated)
+            checkITunes { result in
+                completion(result)
+            }
             return
         }
+
         guard checkPolicy.isVersionString(bundle.version, largerThan: lastVersionString) else {
             completion(.notUpdated)
             return
         }
+
+        checkITunes { result in
+            completion(result)
+        }
+    }
+
+    private func checkITunes(completion: @escaping (_ result: CheckingResult) -> Void) {
         iTunesChecker.check { result in
             switch result {
             case .success(let appInfo):
