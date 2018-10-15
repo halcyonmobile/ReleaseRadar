@@ -32,8 +32,8 @@ extension CheckPolicy {
     typealias VersionString = String
 
     func isVersionString(_ lhsVersionString: VersionString, largerThan rhsVersionString: VersionString) -> Bool {
-        let lhsComponents = lhsVersionString.components(separatedBy: ".")
-        let rhsComponents = rhsVersionString.components(separatedBy: ".")
+        let lhsComponents = lhsVersionString.components(separatedBy: ".").padded(with: "0", upTo: 4)
+        let rhsComponents = rhsVersionString.components(separatedBy: ".").padded(with: "0", upTo: 4)
 
         if self >= CheckPolicy.major, areComponents(lhsComponents, largerThan: rhsComponents, checkPolicy: .major) {
             return true
@@ -62,3 +62,4 @@ extension CheckPolicy {
         return lhsComponents[checkPolicy.rawValue] > rhsComponents[checkPolicy.rawValue]
     }
 }
+
