@@ -6,3 +6,5 @@ install: swift package update
 script:
   - swift build
   - swift test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
