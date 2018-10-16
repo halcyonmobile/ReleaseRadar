@@ -8,9 +8,9 @@
 import Foundation
 
 public struct AppInfo: Decodable {
-    let title: String
-    let releaseNotes: String
-    let version: String
+    public let title: String
+    public let releaseNotes: String
+    public let version: String
 
     enum CodingKeys: String, CodingKey {
         case title = "trackName"
