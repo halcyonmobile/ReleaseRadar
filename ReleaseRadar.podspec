@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReleaseRadar"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.homepage     = "https://github.com/halcyonmobile/ReleaseRadar"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Botond Magyarosi"
@@ -14,5 +14,7 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/halcyonmobile/ReleaseRadar.git", :tag => "v#{s.version}" }
+
   s.source_files  = "Sources/**/*.swift"
+  s.exclude_files = "Sources/Example/*.swift"
 end
