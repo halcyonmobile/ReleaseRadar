@@ -40,11 +40,14 @@ public class ReleaseRadar {
         checkITunes(completion: completion)
     }
 
+    public func markRead() {
+        lastVersionString = bundle.version
+    }
+
     private func checkITunes(completion: @escaping (_ result: CheckingResult) -> Void) {
         iTunesChecker.check { result in
             switch result {
             case .success(let appInfo):
-                self.lastVersionString = self.bundle.version
                 completion(.updated(appInfo))
             case .failure(_):
                 completion(.notUpdated)
