@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReleaseRadar"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.homepage     = "https://github.com/halcyonmobile/ReleaseRadar"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Botond Magyarosi"
