@@ -80,3 +80,5 @@ releaseRadar.verify(checkPolicy: .minor) { result in
 Apple is a trademark -, App Store is a service mark of Apple Inc., registered in the U.S. and other countries and regions.
 
 ReleaseRadar is released under the MIT license. [See LICENSE](https://github.com/halcyonmobile/ReleaseRadar/blob/master/LICENSE) for details.
+
+If you use the open-source library in your project, please make sure to credit and backlink to http://halcyonmobile.com
